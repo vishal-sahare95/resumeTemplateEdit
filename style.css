@@ -1,0 +1,41 @@
+:root {
+  --blue: #e6f1fd;
+  --white: #ffff; 
+    --back-red:#670202;
+    --main-font:20px
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+.custom-progress-bar {
+    background-color: rgb(226, 211, 6); /* Replace with the desired color */
+}
+.header{
+    background: var(--back-red);
+}
+.bgc-red{
+    background: var(--back-red);
+}
+.bgc-blue{
+    background: var(--blue);
+}
+.text-white{
+    color: var(--white);
+}
+.main-heading{
+    font-size: var(--main-font);
+    margin-bottom: 5px;
+
+}
+.main-heading-base-line{
+    content: '';
+    position: absolute;
+    width: 8rem;
+    height: 2px;
+    background: var(--back-red);
+}
+a{
+    color: black;
+    text-decoration: none;
+}
